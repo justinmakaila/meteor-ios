@@ -26,6 +26,7 @@
 		7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
 		7CBF1B291B1A156600967AEE /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2A96111B19A7F100DE99CC /* OCMock.framework */; };
 		7CBF1B2B1B1A157100967AEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA46E671AE417AE00598B70 /* CoreData.framework */; };
+		7CBF1B2C1B1A174800967AEE /* OCMock.framework in Copy Dependencies */ = {isa = PBXBuildFile; fileRef = 9F2A96111B19A7F100DE99CC /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F030F591AE3E98F00BCC4C8 /* METAleaRandomValueGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3B1AE3E98F00BCC4C8 /* METAleaRandomValueGeneratorTests.m */; };
 		9F030F5A1AE3E98F00BCC4C8 /* METCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3C1AE3E98F00BCC4C8 /* METCollectionTests.m */; };
 		9F030F5B1AE3E98F00BCC4C8 /* METCoreDataDDPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3D1AE3E98F00BCC4C8 /* METCoreDataDDPClientTests.m */; };
@@ -201,6 +202,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7CBF1B2C1B1A174800967AEE /* OCMock.framework in Copy Dependencies */,
 				9F2A96191B19AC7E00DE99CC /* InflectorKit.framework in Copy Dependencies */,
 				9F2A961A1B19AC7E00DE99CC /* PocketSocket.framework in Copy Dependencies */,
 				9F2A961B1B19AC7E00DE99CC /* SimpleKeychain.framework in Copy Dependencies */,
