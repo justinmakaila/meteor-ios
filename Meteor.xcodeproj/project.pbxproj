@@ -24,9 +24,8 @@
 		7CBF1A581B18FF3C00967AEE /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; };
 		7CBF1A591B18FF3C00967AEE /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; };
 		7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
-		7CBF1A5C1B18FFAA00967AEE /* InflectorKit.framework in Copy Dependencies */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CBF1A5D1B18FFAA00967AEE /* PocketSocket.framework in Copy Dependencies */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CBF1A5E1B18FFAA00967AEE /* SimpleKeychain.framework in Copy Dependencies */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CBF1B291B1A156600967AEE /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2A96111B19A7F100DE99CC /* OCMock.framework */; };
+		7CBF1B2B1B1A157100967AEE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA46E671AE417AE00598B70 /* CoreData.framework */; };
 		9F030F591AE3E98F00BCC4C8 /* METAleaRandomValueGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3B1AE3E98F00BCC4C8 /* METAleaRandomValueGeneratorTests.m */; };
 		9F030F5A1AE3E98F00BCC4C8 /* METCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3C1AE3E98F00BCC4C8 /* METCollectionTests.m */; };
 		9F030F5B1AE3E98F00BCC4C8 /* METCoreDataDDPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F030F3D1AE3E98F00BCC4C8 /* METCoreDataDDPClientTests.m */; };
@@ -182,19 +181,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7CBF1A5B1B18FF9800967AEE /* Copy Dependencies */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7CBF1A5C1B18FFAA00967AEE /* InflectorKit.framework in Copy Dependencies */,
-				7CBF1A5D1B18FFAA00967AEE /* PocketSocket.framework in Copy Dependencies */,
-				7CBF1A5E1B18FFAA00967AEE /* SimpleKeychain.framework in Copy Dependencies */,
-			);
-			name = "Copy Dependencies";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F2A96131B19AC1700DE99CC /* Copy Dependencies */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBF1A581B18FF3C00967AEE /* InflectorKit.framework in Frameworks */,
+				7CBF1B2B1B1A157100967AEE /* CoreData.framework in Frameworks */,
 				7CBF1A591B18FF3C00967AEE /* PocketSocket.framework in Frameworks */,
 				7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */,
 			);
@@ -386,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2A960E1B199E5A00DE99CC /* InflectorKit.framework in Frameworks */,
+				7CBF1B291B1A156600967AEE /* OCMock.framework in Frameworks */,
 				9F2A960F1B199E5A00DE99CC /* PocketSocket.framework in Frameworks */,
 				9F2A96101B199E5A00DE99CC /* SimpleKeychain.framework in Frameworks */,
 				9FAB39121AE3E8D700E99519 /* Meteor.framework in Frameworks */,
@@ -810,8 +798,6 @@
 				9FAB383D1AE3E76900E99519 /* Sources */,
 				9FAB383E1AE3E76900E99519 /* Frameworks */,
 				9FAB383F1AE3E76900E99519 /* Headers */,
-				9FAB38401AE3E76900E99519 /* Resources */,
-				7CBF1A5B1B18FF9800967AEE /* Copy Dependencies */,
 			);
 			buildRules = (
 			);
@@ -904,13 +890,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FAB38401AE3E76900E99519 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FAB38FA1AE3E8C000E99519 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
